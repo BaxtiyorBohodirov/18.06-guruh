@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasmlar</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="mycss/style.css">
+    <link rel="stylesheet" href="mycss/rasmlar.css">
+</head>
+<body onresize="reSizeBn()">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Bosh sahifa<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Rasmlarimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Guruhdoshlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tug'ilgan kuningiz bilan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">To'ylar muborak</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>
+           Rasmlarimiz
+        </h1>
+        <div class="row" style="flex-wrap: wrap;">
+            <img src="images/1.jpg" alt="" class="thumbnail col-3" onclick="pictures('1')">
+            <img src="images/2.jpg" alt="" class="thumbnail col-3">
+            <img src="images/3.jpg" alt="" class="thumbnail col-3">
+            <img src="images/4.jpg" alt="" class="thumbnail col-3">
+            <img src="images/5.jpg" alt="" class="thumbnail col-6">
+            <img src="images/1.jpg" alt="" class="thumbnail col-6">
+            <img src="images/2.jpg" alt="" class="thumbnail col-4">
+            <img src="images/3.jpg" alt="" class="thumbnail col-4">
+            <img src="images/4.jpg" alt="" class="thumbnail col-4">
+        
+        </div>
+        <div class="bn"  id="bn1">
+            <img class="thumbnail"   src="" alt="">
+            <button class="btn btn-outline-danger">X</button>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="first.js"></script>
+</body>
+</html>
